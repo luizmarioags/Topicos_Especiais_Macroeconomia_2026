@@ -1,0 +1,14 @@
+Package: m3eReplication
+Type: Package
+Title: Replication of the Static and Dynamic Three-Equation Macroeconomic Model
+Version: 0.1.0
+Authors@R: person("Replication", "Package", role = c("aut", "cre"), email = "replication@example.invalid")
+Description: Reproduces the coefficient matrices, equilibria, dynamic simulations,
+    impulse responses and charts of the supplied static and dynamic M3E Excel
+    workbooks. The package also exposes an affine state-space representation of
+    the dynamic model.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+LazyData: false
+

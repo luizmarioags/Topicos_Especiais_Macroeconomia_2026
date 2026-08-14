@@ -1,0 +1,6 @@
+{
+  "static_residual_max_abs": 2.220446049250313e-16,
+  "dynamic_rows": 511,
+  "dynamic_first_period": -1,
+  "dynamic_last_period": 509
+}

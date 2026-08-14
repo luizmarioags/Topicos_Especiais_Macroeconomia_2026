@@ -1,0 +1,5 @@
+,y,pi_expected,pi,r_expected
+IS,1.0,0.0,0.0,2.0
+expectations,0.0,1.0,-0.3,0.0
+Phillips,-0.25,-1.0,1.0,0.0
+monetary_rule,0.0,-1.5,0.0,1.0

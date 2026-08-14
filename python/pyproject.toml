@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "m3e-replication"
+version = "0.1.0"
+description = "Replicação em Python do Modelo Macroeconômico de 3 Equações (M3E), estático e dinâmico."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Replication package generated from the supplied M3E materials"}]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "matplotlib>=3.7",
+]
+
+[project.scripts]
+m3e-replicate = "m3e.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
